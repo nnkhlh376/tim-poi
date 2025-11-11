@@ -1,0 +1,54 @@
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: serif;
+  background-color: #B8E1FF; 
+  color: #272525;
+}
+
+#map { 
+  height: 80vh; 
+  border: 2px solid #B8E1FF; 
+}
+
+#controls { 
+  padding: 18px; 
+  background-color: #ab90f5; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px; 
+  margin: 10px;
+}
+
+input, button { 
+  padding: 10px; 
+  font-size: 18px; 
+  font-family: serif; 
+  border-radius: 4px; 
+}
+
+input {
+  border: 2px solid #ddd; 
+  background-color: #fff; 
+  color: #272525; 
+}
+
+input:focus {
+  border-color: #0b73db; 
+  outline: none;
+}
+
+button { 
+  background-color: #eb76c2; 
+  color: rgb(246, 245, 245); 
+  border: none;
+  cursor: pointer; 
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #5e72d6; 
+}
+
+button:active {
+  background-color: #5e72d6; 
+}
