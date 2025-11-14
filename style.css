@@ -52,3 +52,54 @@ button:hover {
 button:active {
   background-color: #5e72d6; 
 }
+
+/* Weather info panel */
+.weather-info {
+  margin: 8px 10px;
+  padding: 10px 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f6ff 100%);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  color: #0b3b66;
+  font-size: 15px;
+  min-height: 40px;
+}
+.weather-info .title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.weather-info .row { display:flex; gap:12px; align-items:center; }
+.weather-info .temp { font-size: 20px; font-weight:700; color:#03396c; }
+.weather-info .small { font-size:13px; color:#35506a; }
+
+/* Close button for routing panel */
+.close-route-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 0;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.close-route-btn:hover {
+  background-color: #cc0000;
+}
+
+.leaflet-routing-container {
+  position: relative;
+}
+
